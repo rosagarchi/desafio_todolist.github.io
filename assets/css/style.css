@@ -1,0 +1,79 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor{
+  width: 700px;
+  height: 400px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  padding: 20px 20px;
+  background-color: rgb(217, 210, 210);
+}
+
+.ingresa{
+  width: 550px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid rgb(197, 197, 197);
+}
+
+#btn-agregar{
+  background-color: green;
+  border-radius: 4px;
+  border: none;
+  font-size: medium;
+  width: 100px;
+  height: 40px;
+  color: white;
+}
+
+.resumen{
+  display: flex;
+  padding-top: 20px;
+}
+
+.total{
+  width: 50%;
+
+}
+
+.subtitulos{
+  padding-left: 30px;
+  padding-bottom: 0;
+}
+
+.ul,.h4{
+  margin: 1px;
+}
+
+#tareas {
+  list-style: none;
+  padding: 0;
+}
+
+#tareas > li > span {
+  margin-left: 12px;
+}
+
+.borrar {
+  color: red;
+}
+
+.elemento {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.lista-tarea {
+  width: 100%;
+}
+
+.texto-tarea {
+  padding-left: 20px;
+}

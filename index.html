@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafío - Todo List</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <main>
+      <section id="box" class="contenedor">
+          <h1>Todo List</h1>
+          <hr>
+          <p>Nueva Tarea</p>
+        
+        <div>
+          <input class="ingresa" type="text" id="tarea-nueva" title="tarea">
+          <button id="btn-agregar" type="button">Agregar</button>
+        </div>
+      
+        <div class="resumen">
+          <div class="total">
+            <p>Total: <span id="total-tareas">0</span></p>
+            <p>Realizados: <span id="tareas-realizadas">0</span></p>
+          </div>
+
+          <div class="lista-tarea">
+            <h4 class="Titulo"> ID <span>&nbsp;</span>Tareas</h4>
+            <ul id="tareas" class="subtitulos">
+            </ul>
+          </div>
+
+        </div>
+      </section>
+      <script
+      src="https://kit.fontawesome.com/f5bdbb41e0.js"
+      crossorigin="anonymous"
+    ></script>
+      
+      <script src="./assets/js/style.js"></script>
+    </main>
+  </body>
+  </html>
